@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodewarsKatas", "CodewarsKatas\CodewarsKatas.csproj", "{9DB4D937-D467-4FB2-A743-576B187D9301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodewarsKatas", "CodewarsKatas\CodewarsKatas.csproj", "{9DB4D937-D467-4FB2-A743-576B187D9301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{7FFC60A9-AE41-4A52-AC5C-D4CF65847DF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{7FFC60A9-AE41-4A52-AC5C-D4CF65847DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodewarsKatas.Tests.Unit", "CodewarsKatas.Tests.Unit\CodewarsKatas.Tests.Unit.csproj", "{F5414045-C99C-4183-9BD1-62A7AF0704FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7FFC60A9-AE41-4A52-AC5C-D4CF65847DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFC60A9-AE41-4A52-AC5C-D4CF65847DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFC60A9-AE41-4A52-AC5C-D4CF65847DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5414045-C99C-4183-9BD1-62A7AF0704FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5414045-C99C-4183-9BD1-62A7AF0704FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5414045-C99C-4183-9BD1-62A7AF0704FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5414045-C99C-4183-9BD1-62A7AF0704FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
