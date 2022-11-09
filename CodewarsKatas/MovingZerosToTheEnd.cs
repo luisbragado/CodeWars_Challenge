@@ -1,7 +1,7 @@
 ﻿/* 21-Abril-2022
 
-Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
-
+Write an algorithm that takes an array and moves all of the zeros to the end, 
+preserving the order of the other elements.
 
 Kata: https://www.codewars.com/kata/52597aa56021e91c93000cb0
 */
@@ -14,6 +14,7 @@ namespace CodewarsKatas
     {
         public static int[] MoveZeroes(int[] arr)
         {
+            //Solución 1: recorremos el arreglo para ir intercambiando los valores igual a cero para recorrerlos al final del array
             for (int a = 0; a < arr.Length; a++)
             {
                 if (arr[a] > 0)
@@ -33,10 +34,10 @@ namespace CodewarsKatas
             }
             return arr;
 
-            ////Solución 2: uso de Linq
-            ////return arr.OrderBy(x => x==0).ToArray();
+            //Solución 2: uso de Linq
+            //return arr.OrderBy(x => x == 0).ToArray();            
 
-            ////Solución 3: filtrar números mayores a cero y concatenar un segundo array sólo con los ceros
+            //Solución 3: filtrar números mayores a cero y concatenar un segundo array sólo con los ceros
             //return arr.Where(x => x > 0).Concat(arr.Where(y => y==0)).ToArray();
         }
     }
